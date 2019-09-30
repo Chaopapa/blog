@@ -1,0 +1,76 @@
+// 公用版心
+.c-container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+// 公用头部
+.c-header {
+    height: 50px;
+    background: #503a48;
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+    .c-container {
+        height: 100%;
+    }
+    &-logo {
+        height: 100%;
+        // padding: 10px 20px;
+        float: left;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    &-nav {
+        float: left;
+        margin-left: 160px;
+        li {
+            float: left;
+            padding: 0 20px;
+            a {
+                color: #fff;
+            }
+            a:hover {
+                color: #ff6700;
+            }
+        }
+        .current_page {
+            background: #7b596f;
+            a {
+                color: #FF6700;
+            }
+        }
+    }
+    &-user {
+        float: right;
+        margin-right: 5px;
+        &-btn {
+            color: antiquewhite;
+        }
+        .btn-login {
+            // color: antiquewhite;
+        }
+        .btn-register {}
+    }
+    &-info {
+        float: right;
+        margin-right: 20px;
+        li {
+            float: left;
+            padding: 0 10px;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+// 公用底部
+.c-bottom {
+    height: 40px;
+    background: #503a48;
+    color: #fff;
+    font-size: 14px;
+}
