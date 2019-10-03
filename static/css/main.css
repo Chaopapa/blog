@@ -1,3 +1,6 @@
+body {
+  background: #fefefe; }
+
 .c-container {
   width: 1280px;
   margin: 0 auto; }
@@ -50,3 +53,5 @@
   background: #503a48;
   color: #fff;
   font-size: 14px; }
+
+/*# sourceMappingURL=main.css.map */

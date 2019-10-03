@@ -5,3 +5,58 @@
   .c-banner .c-container {
     height: 400px;
     background: #000; }
+
+.c-main {
+  margin: 80px 0; }
+  .c-main-info {
+    height: 600px; }
+    .c-main-info-left {
+      width: 300px;
+      height: 100%;
+      background: #fff;
+      float: left;
+      box-shadow: 0 0 4px #ccc;
+      transition: all 0.6s;
+      overflow: hidden; }
+      .c-main-info-left:hover {
+        box-shadow: 0 0 8px #aaa; }
+      .c-main-info-left .info-portrait {
+        text-align: center;
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+        background: url(../images/IMG_2968.JPG) -220px -50px no-repeat;
+        box-shadow: 0 0 2px #eee;
+        border-radius: 50%; }
+      .c-main-info-left p {
+        padding: 0 30px;
+        overflow: hidden;
+        line-height: 30px;
+        font-size: 14px;
+        color: #1a1a1a; }
+    .c-main-info-right {
+      float: right;
+      width: 850px;
+      height: 100%;
+      padding: 0 50px;
+      background: #fff;
+      box-shadow: 0 0 4px #ccc;
+      transition: all 0.6s;
+      position: relative; }
+      .c-main-info-right:hover {
+        box-shadow: 0 0 8px #aaa; }
+      .c-main-info-right h3 {
+        margin: 20px 0;
+        font-size: 20px;
+        color: #1a1a1a;
+        font-weight: normal; }
+      .c-main-info-right .info-more {
+        position: absolute;
+        right: 40px;
+        top: 30px;
+        color: #333;
+        font-size: 14px;
+        line-height: 30px;
+        padding: 0 5px; }
+
+/*# sourceMappingURL=index.css.map */
