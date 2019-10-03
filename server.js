@@ -33,7 +33,7 @@ server.get('/api/cateogory/list', (request, response)=>{
 
 server.use(express.static(path.join(__dirname, '/'))); //指定静态文件目录
 
-server.get('/', (req, res)=>{
+server.get('/view/', (req, res)=>{
   res.sendFile(__dirname+'/view/index.html');
 });
 

@@ -6,7 +6,7 @@ $(function(){
     // });
 
     var infoSwiper = new Swiper('.info-swiper',{
-
+        
     });
 
 
