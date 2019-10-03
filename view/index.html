@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>超时空博客</title>
+    <title>个人博客</title>
     <link rel="stylesheet" href="../static/css/layout.css" />
     <link rel="stylesheet" href="../static/css/main.css" />
     <link rel="stylesheet" href="../static/css/index.css" />
@@ -17,10 +17,10 @@
         <div class="c-header-logo">超时空博客</div>
         <ul class="c-header-nav">
           <li class="current_page"><a href="">主页</a></li>
-          <li><a href="">技术分享</a></li>
-          <li><a href="">个人作品</a></li>
+          <li><a href="">博文</a></li>
+          <li><a href="">Demo</a></li>
           <li><a href="">笔记</a></li>
-          <li><a href="">广场</a></li>
+          <li><a href="">导航</a></li>
         </ul>
         <div class="c-header-user">
           <a href="" class="c-header-user-btn btn-login">登录</a> |
@@ -53,20 +53,58 @@
             </p>
           </div>
           <div class="c-main-info-right">
-              <h3>
-                 <span class="iconfont"></span> 推荐专区
-                </h3>
-                <a href="" class="info-more">更多</a>
+            <h3><span class="iconfont"></span> 推荐专区</h3>
+            <a href="" class="info-more">更多</a>
+            <div class="swiper-nav">
+              <ul>
+                <li>最新</li>
+                <li>学习</li>
+                <li>游戏</li>
+                <li>动漫</li>
+              </ul>
+            </div>
+            <div class="swiper-container info-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">slider1</div>
+                <div class="swiper-slide">slider2</div>
+                <div class="swiper-slide">slider3</div>
+              </div>
+            </div>
           </div>
+        </div>
+        <!-- 留言 -->
+        <div class="c-main-comments">
+            <h3>留言板</h3>
+            <div class="comments-text">
+                <ul class="textList">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="sendComments">
+                <form action="" class="clearfix">
+                    <input type="text" maxlength="30" placeholder="请输入10到30个字的留言" minlength="10">
+                    <input type="submit" value="发布">
+                </form>
+            </div>
+            <div class="before-login">
+
+            </div>
+            
         </div>
       </div>
     </div>
     <div class="c-bottom">
-      <div class="c-container"></div>
+      <div class="c-container">
+          &copy;福建省南平市陈超
+      </div>
     </div>
     <script src="../static/script/jquery-1.8.3/jquery-1.8.3.min.js"></script>
     <script src="../static/script/swiper.js"></script>
     <script src="../static/script/swiper.animate1.0.2.min.js"></script>
-    <script src="../static/"></script>
+    <script src="../static/script/index.js"></script>
   </body>
 </html>

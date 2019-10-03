@@ -53,5 +53,8 @@ body {
   background: #503a48;
   color: #fff;
   font-size: 14px; }
+  .c-bottom .c-container {
+    text-align: center;
+    line-height: 40px; }
 
 /*# sourceMappingURL=main.css.map */
