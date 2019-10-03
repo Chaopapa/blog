@@ -2,11 +2,15 @@ const http = require('http');
 const express = require('express');
 const Mock = require('mockjs');
 const path = require('path');
+//获取接口地址
+const host = require('./api');
 
 // http.createServer()
 
 // 构建服务
 const server = express();
+
+
 
 // 服务拦截请求。拦截的请求链接就是第一个参数
 server.get('/api/cateogory/list', (request, response)=>{
@@ -22,7 +26,6 @@ server.get('/api/cateogory/list', (request, response)=>{
       }
     ]
   });
-
   // 对客户端进行响应
   response.json(result);
   
@@ -40,6 +43,7 @@ server.listen(8081, 'localhost', (error)=>{
     console.log('启动失败');
   }else{
     console.log('启动成功');
+    console.log('由'+host+'提供接口');
   }
 });
 
