@@ -25,9 +25,12 @@ body {
     margin-left: 160px; }
     .c-header-nav li {
       float: left;
-      padding: 0 20px; }
+      cursor: pointer; }
       .c-header-nav li a {
-        color: #fff; }
+        color: #fff;
+        padding: 0 20px;
+        display: block;
+        height: 100%; }
       .c-header-nav li a:hover {
         color: #ff6700; }
     .c-header-nav .current_page {
